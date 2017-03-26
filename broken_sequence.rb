@@ -18,6 +18,7 @@ def find_missing_number(sequence)
   
   number_sequence.each.with_index(1) do |actual, expected|
     return expected unless actual == expected
-  ends
+  end
+  
   0
 end
