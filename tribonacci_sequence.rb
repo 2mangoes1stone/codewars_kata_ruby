@@ -20,5 +20,5 @@ def tribonacci(signature, n)
     (3..n).each do |i|
         signature[i] = signature[i-3] + signature[i-2] + signature[i-1]
     end
-    signature.slice(0..n-1).inspect
+    signature.slice(0, n)
 end
