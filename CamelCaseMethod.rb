@@ -10,3 +10,4 @@ class String
     self.split.map(&:capitalize).join(' ').delete(' ')
   end
 end
+
